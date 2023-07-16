@@ -1,0 +1,64 @@
+*{
+      background-color: rgb(56, 56, 131);
+}
+.head{
+      color: red;
+      
+      margin: 300px 600px;
+}
+.btn{
+      border-radius: 19px;
+      height: 38px;
+      width: 128px;
+      position: relative;
+      background-color: wheat;
+      color: rgb(49, 183, 49);
+      font-weight: bolder;
+      font-size: 19px;
+      padding: 2px 2px;
+      margin-left:  630px;
+      margin-bottom: 30px;
+      
+}
+.container{
+      display: flex;
+      flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    justify-content: center;
+}
+.container .plus,.minus{
+      height: 40px;
+      width: 90px;
+      border: red solid 2px;
+      border-radius: 25px;
+      font-size: 30px;
+      font-weight: bolder;
+}
+.num{
+      margin: 0px 20px;
+}
+
+.sent{
+      color: red;
+      
+      display: flex;
+      justify-content:center;
+      
+}
+.click{
+
+      
+     
+      border-radius: 1rem;
+      background-color: rgb(4, 131, 131);
+      color: aliceblue;
+      font-size: 3rem;
+      cursor: pointer;
+      padding: 1rem 3rem;
+     margin: auto;
+     margin-top: 2rem;
+    
+      border: none;
+      outline: none;
+}
