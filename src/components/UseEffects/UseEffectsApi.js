@@ -42,6 +42,9 @@ const UseEffectsApi = () => {
                                                                   <div className="d-flex flex-column">
                                                                   <span className="articles">Rating</span> <span className="number3">8.9</span>     
                                                                   </div>
+                                                                  <div className="d-flex flex-column">
+                                                                  <span className="articles">Badges</span> <span className="number4">5</span>     
+                                                                  </div>
                                                             </div>
                                                       </div>
                                                 </div>
