@@ -1,7 +1,11 @@
 import React, {useState} from 'react'
 import UsestateArray from './components/UsestateArray';
+import UseStateObject from './components/UseStateObject';
+import UseEffects1 from './components/UseEffects/UseEffects1';
+import UseEffects2 from './components/UseEffects/UseEffects2';
 import './App.css';
 import './Style.css'
+import UseEffectsApi from './components/UseEffects/UseEffectsApi';
 
 function App() {
   //var myname = "Sumit Kumar"
@@ -36,7 +40,9 @@ function App() {
       } >- </button> 
     </div>
     */}
-    <UsestateArray />
+     {/*<UsestateArray /> */}
+     {/*<UseStateObject />*/}
+     <UseEffectsApi />
     </>
       
   );
